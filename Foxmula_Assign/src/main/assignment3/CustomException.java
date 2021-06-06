@@ -26,19 +26,7 @@ public class CustomException{
 		else
 		{
 			System.out.println("No exception found");
-		}
 	}
-	
-	public static void main(String args[])
-	{
-		try {
-			
-			fn(3);
-			fn(6);
-		}
-		catch (Exception e) {
-			System.out.println(e);
-		}
-	}
-	
 }
+	
+	
