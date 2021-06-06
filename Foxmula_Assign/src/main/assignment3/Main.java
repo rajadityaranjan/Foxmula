@@ -24,11 +24,16 @@ public class Main {
                     break;
                 case 2:
                     // Answer 2
-                    System.out.print("Enter a number : ");
-                    int n = scanner.nextInt();
-                    CustomException O2 = new CustomException();
-                    O2.process(n);
+                    try {
+			
+			                fn(3);
+			                fn(6);
+		                }
+		           catch (Exception e) {
+			                System.out.println(e);
+		           }
                     break;
+                   
                 case 3:
                     // Answer 3
                     int arr1[] = {10,20,10,10,6,6,6,6,6,24,24,24,20,5,5,5,5,5,5,5};
@@ -36,6 +41,7 @@ public class Main {
                     SortFreq O3 = new SortFreq();
                     System.out.println("\n"+"\n"+"\n");
                     O3.Frequency(arr1);
+                    break;
 
 
                 default:
