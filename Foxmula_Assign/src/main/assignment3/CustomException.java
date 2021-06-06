@@ -9,7 +9,7 @@ class UserDefinedException extends Exception{
 	}
 }
 
-public class CustomExceptionQ2 {
+public class CustomException{
 
 	static void fn(int n) throws UserDefinedException{
 		int b=0;
@@ -21,7 +21,7 @@ public class CustomExceptionQ2 {
 		
 		if(b==2 && n%2==1)
 		{
-			throw new UserDefinedException("Invalid Number"); 
+			throw new UserDefinedException("Number is Invalid"); 
 		}
 		else
 		{
